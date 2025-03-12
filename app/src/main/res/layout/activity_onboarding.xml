@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/onboarding_bg">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/skip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/colorText"
+        android:text="@string/skip_btn" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="24dp"
+        android:layout_gravity="bottom">
+        
+        <androidx.cardview.widget.CardView
+            android:id="@+id/get_started_btn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:text="@string/let_get_started"
+            android:textColor="@color/colorWhite"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/let_get_started"
+                android:gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="16sp"
+                android:textColor="@color/colorWhite" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <LinearLayout
+            android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"/>
+
+        <ImageView
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_right"
+            app:tint="@color/colorWhite"
+            android:drawableTint="@color/colorWhite"
+            android:onClick="next" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

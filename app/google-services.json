@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058881926552",
+    "project_id": "pro-ai-41d6c",
+    "storage_bucket": "pro-ai-41d6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058881926552:android:e2357ac7b78e22d21067ed",
+        "android_client_info": {
+          "package_name": "com.netrocreative.chatgptapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058881926552-q7vi2enhamfpbai2gm59dodi10mfnbqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrmCd7fOIt8Est_OUsGCtmvuPsf4oCi04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058881926552-q7vi2enhamfpbai2gm59dodi10mfnbqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

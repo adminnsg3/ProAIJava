@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@color/colorBG"
+    android:fitsSystemWindows="true"
+    android:minHeight="400dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:padding="20dp"
+            android:src="@drawable/ic_left"
+            app:tint="@color/colorAccent"></ImageView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="56dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"></TextView>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="66dp" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/message_bg"
+            android:backgroundTint="@color/colorCard"
+            android:hint="Type here.."
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint"
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/send_btn"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_send"
+                app:tint="@color/colorWhite"></ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

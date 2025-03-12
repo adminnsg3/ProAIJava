@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".activity.WebsiteActivity">
+
+    <WebView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBG"></WebView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/progress"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:cardCornerRadius="8dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/colorCard">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            app:indicatorColor="@color/colorAccent"
+            app:trackCornerRadius="5dp"></com.google.android.material.progressindicator.CircularProgressIndicator>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

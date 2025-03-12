@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#3857F5</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextHint">#8DEFEFEF</color>
+    <color name="colorTextSecondary">#8DEFEFEF</color>
+    <color name="colorBG">#101010</color>
+    <color name="colorCard">#2F3031</color>
+    <color name="colorIconBG">#3A4685</color>
+    <color name="colorNoInternetBackground">#121212</color>
+
+    <color name="colorSplashStart">#3857F5</color>
+    <color name="colorSplashMiddle">#253CB3</color>
+    <color name="colorSplashEnd">#42198A</color>
+
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorOffWhite">#C3C3C3</color>
+    <color name="colorTeal">#1AC6A9</color>
+    <color name="colorPurple">#5E35B1</color>
+    <color name="colorOrange">#F4511E</color>
+    <color name="colorYellow">#FDD835</color>
+    <color name="colorBlue">#3857F5</color>
+    <color name="colorGreen">#43A047</color>
+    <color name="colorGray">#292929</color>
+</resources>

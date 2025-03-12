@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Pro AI</string>
+    <string name="about_us">Pro AI App is an AI chat application developed by Netro Creative using the Chat GPT API. It allows users to have natural language conversations with an intelligent virtual assistant, providing helpful information and assisting with various tasks. With advanced language processing capabilities, Pro AI can understand and respond to a wide range of queries, making it a versatile and convenient tool for both personal and business use.</string>
+
+    <string name="first_slide_title">AI Personal\nAssistant App</string>
+    <string name="second_slide_title">Say Hello to Your\nSmart Assistant!</string>
+    <string name="third_slide_title">Pro AI\nSmartest of All</string>
+
+    <string name="first_slide_desc">An App that can assists you all the way long and without any cost or subscription!</string>
+    <string name="second_slide_desc">An App that can assists you all the way long and without any cost or subscription!</string>
+    <string name="third_slide_desc"> Your new AI-powered assistant is here to make your life easier.</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="pricing_plan">Pricing Plan</string>
+    <string name="company_name">Netro Creative</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="title_desc">Your personal AI Assistant!</string>
+    <string name="select_a_service">Select a service</string>
+    <string name="assistant">Assistant</string>
+    <string name="enter_your_text">Enter your text..</string>
+    <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="your_result_will_be_displayed_here">Your result will be displayed here..</string>
+    <string name="copy">Copy</string>
+    <string name="settings">Settings</string>
+    <string name="remove_ads_subscription">Remove Ads/Subscription</string>
+    <string name="website">Website</string>
+    <string name="about">About Us</string>
+    <string name="pricing">Pricing</string>
+    <string name="monthly_pricing_plan">(Monthly pricing Plan)</string>
+    <string name="_1_month_subscription">1 month subscription</string>
+    <string name="select_this_plan">Select this Plan</string>
+    <string name="half_yearly_pricing_plan">(Half yearly pricing Plan)</string>
+    <string name="_6_months_subscription">6 months subscription</string>
+    <string name="all_ads_removed">All Ads removed</string>
+    <string name="yearly_pricing_plan">(Yearly pricing Plan)</string>
+    <string name="_1_year_subscription">1 year subscription</string>
+    <string name="this_app_comes_with_ads_nyou_can_remove_ads_for_better_exprience">This app comes with Ads! \nYou can remove ads for better exprience.</string>
+    <string name="see_pricing_plans">See Pricing Plans</string>
+
+    <string name="web_address">https://netrocreative.com/</string>
+    <string name="facebook">https://web.facebook.com/netrocreative</string>
+    <string name="twitter">https://twitter.com/netrocreative</string>
+    <string name="linkedin">https://www.linkedin.com/company/netrocreative/</string>
+    <string name="whatsapp">https://wa.me/+8801724244796</string>
+
+    <string name="completion_endpoint">https://api.openai.com/v1/completions</string>
+    <string name="chat_endpoint">https://api.openai.com/v1/chat/completions</string>
+
+    <string name="oen_signal_app_id">7217f7dd-0ed9-4ece-9901-c00499a6ab69</string>
+
+    <string name="base64key">Base 64 key here</string>
+    <string name="api_key">Your API Key Here</string>
+
+    <string name="admob_rewarded_ad_unit">ca-app-pub-394025642544/56379</string>
+    <string name="applovin_rewarded_ad_unit">07407f4471</string>
+    <string name="admob_interstitial_ad_id">ca-app-pub4025609254433173712</string>
+    <string name="applovin_interstitial_ad_id">3b59b58264</string>
+
+    <string name="adMob">AdMob</string>
+    <string name="appLovin">AppLovin</string>
+    <string name="adPlatform">AdMob</string>
+
+    <string name="sub_m">sub_m</string>
+    <string name="sub_h">sub_h</string>
+    <string name="sub_y">sub_y</string>
+
+</resources>
